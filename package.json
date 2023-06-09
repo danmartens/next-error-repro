@@ -12,7 +12,10 @@
     "@types/node": "20.2.5",
     "@types/react": "18.2.9",
     "@types/react-dom": "18.2.4",
+    "chalk": "^5.2.0",
+    "execa": "^7.1.1",
     "next": "13.4.4",
+    "puppeteer": "^20.5.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.1.3"
