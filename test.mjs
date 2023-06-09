@@ -39,7 +39,7 @@ const REQUEST_COUNT = count == null ? 100 : parseInt(count, 10);
   let failures = 0;
 
   while (requestsRemaining-- > 0) {
-    await page.goto(`http://localhost:3000/${example}/test2/test3/test4`);
+    await page.goto(`http://localhost:3000/${example}/test-1/test-2`);
 
     await page.waitForNetworkIdle();
 
